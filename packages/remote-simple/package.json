@@ -1,0 +1,20 @@
+{
+  "name": "@vue2-demo/remote-simple",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 5001 --strictPort",
+    "build:dev": "vite build --watch",
+    "build": "vite build",
+    "serve": "vite preview --port 5001 --strictPort",
+    "test": "echo test $name",
+    "debug": "set DEBUG=vite:deps && vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.3",
+    "@vitejs/plugin-vue2": "^2.2.0"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  }
+}
